@@ -34,6 +34,8 @@ on:
   # Customize trigger events based on your DevSecOps processes.
   push:
     branches: [ "main" ]
+    paths:
+      - '**.yaml'    
   pull_request:
     branches: [ "main" ]
   schedule:
