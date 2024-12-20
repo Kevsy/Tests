@@ -38,6 +38,8 @@ on:
       - '**.yaml'    
   pull_request:
     branches: [ "main" ]
+    paths:
+      - '**.yaml'        
   schedule:
     - cron: '29 18 * * 3'
 
