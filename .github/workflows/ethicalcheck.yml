@@ -64,10 +64,10 @@ jobs:
           oas-url: "https://raw.githubusercontent.com/camaraproject/SimpleEdgeDiscovery/9dd864b4732f2bd97b2504431eaf4183287346d7/code/API_definitions/simple-edge-discovery.yaml"
           # The email address to which the penetration test report will be sent.
           email: "surfgreen@protonmail.com"
-          sarif-result-file: "ethicalcheck-results.sarif"
+          #sarif-result-file: "ethicalcheck-results.sarif"
 
-       - name: Upload sarif file to repository
-         uses: github/codeql-action/upload-sarif@v3
-         with:
-          sarif_file: ./ethicalcheck-results.sarif
+       #- name: Upload sarif file to repository
+         #uses: github/codeql-action/upload-sarif@v3
+         #with:
+          #sarif_file: ./ethicalcheck-results.sarif
 
