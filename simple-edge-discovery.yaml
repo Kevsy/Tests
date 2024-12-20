@@ -9,7 +9,7 @@ info:
   ---
   # Summary
 
-  The Simple Edge Discovery API returns the name of the closest operator Edge
+  APISECTESTThe Simple Edge Discovery API returns the name of the closest operator Edge
   Cloud Zone to a particular user device.
 
   # Purpose
