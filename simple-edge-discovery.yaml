@@ -10,7 +10,7 @@ info:
   # Summary
 
   The Simple Edge Discovery API returns the name of the closest operator Edge
-  Cloud Zone to a particular user device.
+  Cloud Zone to a particular user device.TESTREMOVE
 
   # Purpose
   Network operators may host multiple Edge Cloud Zones in a
