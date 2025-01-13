@@ -61,7 +61,7 @@ jobs:
          uses: apisec-inc/ethicalcheck-action@005fac321dd843682b1af6b72f30caaf9952c641
          with:
           # The OpenAPI Specification URL or Swagger Path or Public Postman collection URL.
-          oas-url: "https://raw.githubusercontent.com/camaraproject/SimpleEdgeDiscovery/9dd864b4732f2bd97b2504431eaf4183287346d7/code/API_definitions/simple-edge-discovery.yaml"
+          oas-url: "https://raw.githubusercontent.com/Kevsy/Tests/refs/heads/main/simple-edge-discovery.json"
           # The email address to which the penetration test report will be sent.
           email: "surfgreen@protonmail.com"
           # sarif-result-file: "ethicalcheck-results.sarif"
