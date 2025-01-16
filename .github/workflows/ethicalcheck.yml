@@ -57,8 +57,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-       - name: EthicalCheck  Free & Automated API Security Testing Service
-         uses: apisec-inc/ethicalcheck-action@latest
+       - name: EthicalCheck - Free & Automated API Security Testing Service
+         uses: apisec-inc/ethicalcheck-action@6538d51caea53470bf8018e21f93414a70026f46
          with:
           # The OpenAPI Specification URL or Swagger Path or Public Postman collection URL.
           oas-url: "https://raw.githubusercontent.com/Kevsy/Tests/refs/heads/main/simple-edge-discovery.yaml"
