@@ -1,0 +1,1 @@
+^\Q.github/workflows/expect.txt\E$
