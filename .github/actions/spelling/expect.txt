@@ -1,0 +1,13 @@
+GPP
+camaraproject
+correlator
+Ipv
+IPv
+MSISDN
+OAuth
+Querystring
+QUERYSTRING
+Telco
+uuid
+wip
+yml
