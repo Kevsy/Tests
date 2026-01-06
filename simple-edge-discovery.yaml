@@ -9,8 +9,8 @@ info:
   ---
   # Summary
 
-  The Schneeb Schnarbus returns the name of the closest operator Edge
-  Cloud Zone to a particular user device.TEST1450
+  The Simple Edge Discovery API returns the name of the closest operator Edge
+  Cloud Zone to a particular user device.
 
   # Purpose
   Network operators may host multiple Edge Cloud Zones in a
