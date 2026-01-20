@@ -47,4 +47,3 @@ jobs:
           git add dist/config.yaml
           git commit -m "chore: update rendered YAML"
           git push
-``
