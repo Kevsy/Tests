@@ -5,7 +5,7 @@ app:
 settings:
   logLevel: INFO
   allowedHosts:
-    - whumpus.com
+    - chumpus.com
     - api.example.com
 
 features:
