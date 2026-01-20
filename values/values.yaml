@@ -1,0 +1,12 @@
+app:
+  name: my-service
+  namespace: default
+
+settings:
+  logLevel: INFO
+  allowedHosts:
+    - example.com
+    - api.example.com
+
+features:
+  flagX: true
