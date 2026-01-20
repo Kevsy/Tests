@@ -1,0 +1,16 @@
+# Example target YAML produced after templating
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{app.name}}
+  namespace: {{app.namespace}}
+  labels:
+    app: {{app.name}}
+data:
+  LOG_LEVEL: {{settings.logLevel}}
+  FEATURE_FLAG_X: {{#if features.flagX}}enabled{{else}}disabled{{/if}}
+  # Lists / objects:
+  ALLOWED_HOSTS: |
+    {{#each settings.allowedHosts}}
+    - {{this}}
+    {{/each}}
