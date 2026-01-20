@@ -1,0 +1,13 @@
+{
+  "name": "yaml-hbs-renderer",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "render": "node scripts/render.js templates/config.hbs.yaml values/values.yaml dist/config.yaml"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "js-yaml": "^4.1.0"
+  }
+}
+``
